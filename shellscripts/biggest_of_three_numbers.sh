@@ -1,13 +1,14 @@
 #!/bin/sh
 
-echo "enter a value"
-read a
+echo "a"
+a=$1
 
-echo "enter b value"
-read b
+echo "b"
+b=$2
 
-echo "enter c value"
-read c
+echo "c"
+c=$3
+
 
 if [ $a -gt $b ] && [ $a -gt $c ]
 then
