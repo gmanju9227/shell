@@ -4,7 +4,7 @@
 #!/bin/sh
 
 echo "Enter basic salary"
-read bs
+bs=$1
 
 dp=`expr $bs \* 50`
 dap=`expr $dp / 100`
